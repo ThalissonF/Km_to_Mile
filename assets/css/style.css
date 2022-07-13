@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #570257;
+    color: #FAFA41;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 300px;
+}
+
+.container__title{
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.container__subtitle{
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.container__conversion{
+    padding-top: 25px;
+}
+
+.container__conversion input{
+    border: 2px solid #FFF;
+    background-color: #000;
+    color: #FAFA41;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.container__conversion span{
+    padding: 0 3px;
+}
+
+.container__conversion button{
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid #FFF;
+    background-color: #000;
+    color:#FAFA41;
+    font-weight: bold;
+    border-radius: 10%;
+}
